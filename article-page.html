@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pig Project</title>
+     <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+
+        .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 { 
+        text-align: center;
+        }
+
+        #main-image img {
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+        border-radius: 5px;
+        }
+
+        #small-images {
+        text-align: center;
+        }
+
+        .image-container {
+        display: flex;
+        justify-content: center;
+        }
+
+        .small-image {
+        width: 200px;
+        margin: 10px;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out;
+        }
+
+        .small-image:hover {
+        transform: scale(1.1);
+        }
+
+        .button {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px 20px;
+        text-align: center;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        }
+
+        .button:hover {
+        background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Pig Project Showcase</h1>
+  
+  <section id="main-image">
+    <img src="./img/main_pig_img.jpeg" alt="Main Image">
+  </section>
+  
+  <section id="small-images">
+    <div class="image-container">
+      <img src="./img/pig_img_1.jpg" alt="Small Image 1" class="small-image">
+      <a href="https://bestfriends.org/sanctuary/about-sanctuary/animal-areas/marshalls-piggy-paradise"><img src="./img/pig_img_2.jpg" alt="Small Image 2" class="small-image"></a>
+      <img src="./img/pig_img_3.jpg" alt="Small Image 3" class="small-image">
+    </div>
+  </section>
+  
+  <a href="pig_project.html" class="button">Go Back To Home Page</a>
+  
+</div>
+
+</body>
+</html>
